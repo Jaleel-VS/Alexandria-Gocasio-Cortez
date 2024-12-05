@@ -1,0 +1,86 @@
+# General OS and Editor files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# Rust
+/target/
+**/*.rs.bk
+**/*.rs.swap
+**/Cargo.lock
+**/debug.log
+
+# Rust Clippy and Rustfmt
+.clippy.toml
+.rustfmt.toml
+rustfmt.toml
+
+# C#
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.rsuser
+*.ide
+
+# Visual Studio
+.vs/
+.vscode/
+*.VC.db
+*.VC.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+
+# Rider IDE
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/gradle.xml
+.idea/**/libraries/
+.idea/**/shelf/
+.idea/modules.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/.cache.yaml
+.idea/**/go-symbols/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Build results
+*.dll
+*.exe
+*.app
+*.out
+*.lib
+*.so
+*.pdb
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.rs.bk
+*.pyc
+__pycache__/
+
+# Backup files
+*.bak
+*.old
+*.save
+
+# Additional files
+*.vsconfig
