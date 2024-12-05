@@ -8,7 +8,7 @@ Below is a progress tracker for each year's challenges. Each year has 25 problem
 
 | Year | C# Progress  | Rust Progress  | C# Status | Rust Status |
 |------|--------------|----------------|-----------|-------------|
-| 2015 | ![8%](https://progress-bar.xyz/8) | ![0%](https://progress-bar.xyz/0) | 1/25 🛠️ | 0/25 🛠️ |
+| 2015 | ![8%](https://progress-bar.xyz/8) | ![0%](https://progress-bar.xyz/0) | 2/25 🛠️ | 0/25 🛠️ |
 | 2016 | ![0%](https://progress-bar.xyz/0) | ![0%](https://progress-bar.xyz/0) | 0/25 🛠️ | 0/25 🛠️ |
 | 2017 | ![0%](https://progress-bar.xyz/0) | ![0%](https://progress-bar.xyz/0) | 0/25 🛠️ | 0/25 🛠️ |
 | 2018 | ![0%](https://progress-bar.xyz/0) | ![0%](https://progress-bar.xyz/0) | 0/25 🛠️ | 0/25 🛠️ |
