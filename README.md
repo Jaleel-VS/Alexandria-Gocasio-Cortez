@@ -1,6 +1,6 @@
 # Advent of Code Practice: 2015-2025
 
-Welcome to my Advent of Code journey! 🎄✨ This repository contains my solutions for Advent of Code challenges from **2015 to 2025**, written in **C#** and **Rust**. It's a fun way to practice problem-solving, learn GoLang, and enhance my coding skills in these languages.
+Welcome to my Advent of Code journey! 🎄✨ This repository contains my solutions for Advent of Code challenges from **2015 to 2025**, written in **GoLang**. It's a fun way to practice problem-solving, learn GoLang, and enhance my coding skills in these languages.
 
 ## Progress Overview
 
@@ -46,12 +46,35 @@ func readLines(path string) ([]string, error) {
 	return lines, scanner.Err()
 }
 
-// read files as a single string
-func readFile(path string) (string, error) {
-    data, err := os.ReadFile(path)
-    if err != nil {
-        return "", err
-    }
-    return string(data), nil
+// parts
+func solvePart1(lines []string) int {
+    fmt.Println("Part 1 is not yet implemented.")
+    return 0
+
+func solvePart2(lines []string) int {
+	fmt.Println("Part 2 is not yet implemented.")
+	return 0
 }
+// main
+var part = flag.Int("part", 1, "which part to solve (1 or 2)")
+func main() {
+    flag.Parse()
+
+    lines, err := readLines("input.txt")
+    if err != nil {
+        log.Fatalf("could not read file: %v", err)
+    }
+
+    switch *part {
+    case 1:
+        answer := solvePart1(lines)
+        fmt.Println("Part 1 Answer:", answer)
+    case 2:
+        answer := solvePart2(lines)
+        fmt.Println("Part 2 Answer:", answer)
+    default:
+        log.Fatalf("invalid part number: %d", *part)
+    }
+}
+
 ```
