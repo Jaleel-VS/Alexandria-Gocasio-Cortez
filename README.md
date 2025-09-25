@@ -8,7 +8,7 @@ Below is a progress tracker for each year's challenges. Each year has 25 problem
 
 | Year | Go Status |
 |------|-------------|
-| 2015 | 0/25 🛠️ |
+| 2015 | 1/25 🛠️ |
 | 2016 | 0/25 🛠️ |
 | 2017 | 0/25 🛠️ |
 | 2018 | 0/25 🛠️ |
