@@ -12,18 +12,18 @@ func main() {
 		log.Fatalf("could not read file: %v", err)
 	}
 
-	var floor_level int = 0
+	floorLevel := 0
 
-	for i := 0; i < len(data); i++ {
-		if data[i] == '(' {
-			floor_level += 1
-		} else {
-			floor_level -= 1
+	for _, char := range data {
+		switch char {
+		case '(':
+			floorLevel++
+		case ')':
+			floorLevel--
 		}
-
 	}
 
-	fmt.Printf("Santa is on floor %d\n", floor_level)
+	fmt.Printf("Santa is on floor %d\n", floorLevel)
 }
 
 
